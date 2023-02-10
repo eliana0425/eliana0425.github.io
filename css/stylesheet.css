@@ -1,0 +1,180 @@
+*{
+    font-family:'Quicksand', sans-serif; 
+    margin: 0; padding: 0; 
+}
+  
+body{
+    background-color: rgb(249, 214, 229);
+}
+
+#wrapper{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    text-align: right;
+    padding-bottom: 2em;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#name {
+    padding-bottom: 5%;
+}
+
+nav{
+    text-align:center;
+    float:left;
+    padding-bottom: 5%;
+    position: fixed;
+
+    z-index: 10;
+}
+    
+nav ul{
+    list-style-type:none;
+}
+
+nav li{
+    display: inline-block;
+    width:30%;
+    margin: 10px;
+}
+
+nav a{
+    padding: 10px;
+}
+
+#bio {
+    clear: both;
+    padding-top: 7%;
+}
+
+
+h1{
+    font-family:'Unbounded', cursive;
+    font-size: 2.5em;
+    color:#D94587;
+    text-align: center;
+    line-height:150%;
+    text-decoration:underline;
+    background-color: rgb(249, 214, 229);
+}
+
+h2{
+    font-size: 1.2em;
+    text-align:center;
+    line-height: 1em;
+}
+
+ul{
+    list-style-type: disc; 
+    color: #D94587;
+    text-align: start;
+    line-height: 1.6em; 
+}
+
+  a:link {
+    background-color: rgb(215, 180, 247);
+    color: rgb(103, 1, 45);
+    transition: background-color 0.5s;
+  }
+
+  a:visited{
+    color: rgb(179, 2, 58);
+    background-color: rgb(251, 154, 178);
+    }
+
+  a:hover {
+    background-color: rgb(186, 210, 255);
+
+}
+
+#eliana{
+    width: 20%;
+    height: auto;
+    padding-left: 42%;
+
+}
+
+h3{
+    text-align:center;
+    line-height:150%;
+    text-transform:uppercase;
+    margin-left:  2em;
+    margin-top: 2em;
+}
+
+p{
+    line-height:1.3em;
+    font-size: 1em;
+    margin-left:5em;
+    margin-right: 5em;
+    text-align: start;
+}
+
+h4{
+    text-align: center;
+}
+
+
+.row {
+    padding-bottom: 10%;
+    overflow: hidden;
+}
+
+.columns {
+    width: 50%;
+    float: left;
+    align-items: left;
+    overflow: auto;
+}
+
+.columns img {
+ width:50%;
+ scale: 75%;
+ padding-left: 30%;
+}
+
+
+.columns2 {
+    width: 50%;
+    float: right;
+    overflow: auto;
+}
+
+.columns2 img {
+ width: 50%;
+ scale: 75%;
+ padding-left: 30%;
+ padding-bottom:2%;
+}
+
+.columns3 {
+    width:33%;
+    float: left;
+    align-items: left;
+    overflow: auto;
+   
+}
+
+.columns3 img {
+ width:100%;
+ scale: 75%;
+}
+
+
+.clearfix {
+    clear: both;
+}
+
+
+footer{
+    text-align: center;
+    padding-bottom: 2em;
+    width: 100%;
+    height: 1000%;
+
+}
