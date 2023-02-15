@@ -39,12 +39,12 @@ nav ul{
 
 nav li{
     display: inline-block;
-    width:30%;
+    width:20%;
     margin: 10px;
 }
 
 nav a{
-    padding: 10px;
+    padding: 5px;
 }
 
 #bio {
@@ -170,6 +170,82 @@ h4{
     clear: both;
 }
 
+
+@media only screen and (max-width: 750px) {
+
+    #wrapper { width: 90%; margin: auto; }
+   
+    .column { width: 33.33%; float: left; margin: 10%;}
+
+    h1{
+        font-size: 2em;
+    }
+
+    body{
+        background-color: #D94587;
+        font-size: 1em;
+    }
+
+    ul li {
+        font-size: .9em;
+        text-align: center;
+    }
+
+    #bio {
+        font-size: .9em;
+    }
+
+    p{
+        line-height: 1.2em;
+        font-size: .9em;
+        text-align: center;
+    }
+
+    p.pettext{
+        width:75%;
+        text-align: center;
+    }
+
+    .columns img {
+        width:50%;
+        scale: 100%;
+    }
+
+    .columns2 img {
+        width: 50%;
+        scale: 100%;
+        align-items: center;    
+    }
+
+    div.columns3{
+        width: 75%; 
+        float: center;
+        margin: 10%;
+        align-items: center;
+        overflow: auto;
+    }
+
+    p.mxtext{
+        font-size: .9em;
+        text-align: center;
+    }
+
+    .columns3 img {
+        width:100%;
+        scale: 75%;
+    }
+
+
+} /* smaller than tablet */
+
+@media only screen and (max-width: 400px) {
+    .column { width: 100%; float: left;
+    margin: 0%; }
+       body{
+        background-color: antiquewhite;
+        }
+    
+    }
 
 footer{
     text-align: center;
