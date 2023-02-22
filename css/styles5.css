@@ -1,0 +1,48 @@
+*{
+    font-family:'Quicksand', sans-serif; 
+}
+  
+body{
+
+    background-color: rgb(249, 214, 229);
+}
+
+h2{
+    
+    font-family:'Unbounded', cursive;
+    color:#D94587;
+    text-align: center;
+    text-decoration:underline;
+}
+
+h5{
+
+    text-align: center;
+}
+
+nav{
+
+    text-align: center;
+}
+
+nav li{
+
+    display: inline-block;
+    width:18%;
+    margin: 5px;
+}
+
+a {
+
+    color: #db1ea9; 
+}
+
+a:hover {
+
+    color: #bb3dff; 
+}
+
+hr{
+
+    color:#db1ea9
+}
