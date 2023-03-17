@@ -3,19 +3,16 @@
     font-family:'Ropa Sans';
 }
 
-
 body{
 
     background-color: rgb(33, 33, 33)
 }
-
 
 header{
     
     text-align: center;
     margin-top: 10%;
 }
-
 
 .intro-text{
 
@@ -25,9 +22,9 @@ header{
 }
 
 .intro-image{
+
     margin-top: 15%;
 }
-
 
 nav{
 
@@ -48,23 +45,28 @@ li{
 }
 
 li:hover {
+
     transform: scale(1.2);
 }
 
 h1{
+
     font-family:'Unbounded';
     text-align: center;
     margin-top: 10%;
 }
+
 h2{
+
     font-family:'Unbounded';
     text-align: right;
     margin-top: 14%;
-    
+
 }
 
 
 h5{
+
     font-family:'Unbounded';
     text-align: right;
     margin-bottom: 2%;
@@ -94,6 +96,7 @@ h5{
 }
 
 .poster-image{
+
     margin-top: 5%;
 }
 
@@ -101,60 +104,70 @@ h5{
 
     color: red
     
-    }
+}
     
-    .greentitle{
-        color:green
-    }
+.greentitle{
+
+    color:green
+}
     
-    .yellowtitle{
+.yellowtitle{
     
-        color:yellow
-    }
+    color:yellow
+}
     
-    .tealtitle{
+.tealtitle{
     
-        color:cyan
-    }
+    color:cyan
+}
     
-    #light{
-        position: relative;
-        top: 150px;
-    }
-    #lineh1{
-        position: absolute;
-        left: 0;
-        height: 10px;
-        background: red;
-        animation: lineH 4s 5s infinite 
-    }
+#light{
+
+    position: relative;
+    top: 150px;
+}
+
+#lineh1{
+
+    position: absolute;
+    left: 0;
+    height: 10px;
+    background: red;
+    animation: lineH 4s 5s infinite 
+
+}
     
-    #lineh2{
-        position: absolute;
-        left: 0;
-        height: 10px;
-        background: green;
-        animation: lineH 4s 5s infinite 
-    }
+#lineh2{
+
+    position: absolute;
+    left: 0;
+    height: 10px;
+    background: green;
+    animation: lineH 4s 5s infinite 
+
+}
     
-    #lineh3{
-        position: absolute;
-        left: 0;
-        height: 10px;
-        background: yellow;
-        animation: lineH 4s 5s infinite 
-    }
+#lineh3{
+
+    position: absolute;
+    left: 0;
+    height: 10px;
+    background: yellow;
+    animation: lineH 4s 5s infinite 
+
+}
     
-    #lineh4{
-        position: absolute;
-        left: 0;
-        height: 10px;
-        background: cyan;
-        animation: lineH 4s 5s infinite 
-    }
+#lineh4{
+
+    position: absolute;
+    left: 0;
+    height: 10px;
+    background: cyan;
+    animation: lineH 4s 5s infinite 
+}
     
     
-            @keyframes lineH{
+        @keyframes lineH{
                 0%{
                     width: 0%;
                 }
